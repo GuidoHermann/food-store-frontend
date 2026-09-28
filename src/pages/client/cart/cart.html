@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Store - Carrito de Compras</title>
+</head>
+<body>
+  <header>
+  <h1>Tu Carrito de Compras</h1>
+  <nav>
+    <a href="/src/pages/client/home/home.html">Volver al Catálogo</a> | 
+    <a href="/src/pages/auth/login/login.html">Login</a>
+  </nav>
+</header>
+<head>
+  <link rel="stylesheet" href="/src/styles.css" />
+</head>
+  <main>
+    <section>
+      <h2>Productos Seleccionados</h2>
+      <!-- Contenedor donde renderizaremos la lista de items o el mensaje de carrito vacío (HU-P1-04) -->
+      <div id="cart-items-container"></div>
+    </section>
+
+    <hr />
+
+    <section>
+      <!-- Cálculo del importe total (HU-P1-05) -->
+      <h3>Total a Pagar: $<span id="cart-total-amount">0</span></h3>
+      <button id="btn-clear-cart">Vaciar Carrito</button>
+    </section>
+  </main>
+
+  <script type="module" src="./cart.ts"></script>
+</body>
+</html>
