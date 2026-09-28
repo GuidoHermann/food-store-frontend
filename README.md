@@ -1,5 +1,5 @@
 # Food Store - Aplicación Web de Comercio Electrónico (Parcial 1)
-# link al video https://www.youtube.com/watch?v=m1AVozNykVI
+
 ## Descripción General
 Evolución de la plataforma e-commerce "Food Store" desarrollada como evaluación práctica para la asignatura **Programación III** (Tecnicatura Universitaria en Programación - UTN). 
 
